@@ -31,10 +31,15 @@ nav{
     align-items: center;
     justify-content:space-between;
     flex-wrap: wrap;
+    background-color: none;
+    padding: 10px;
+    border-radius: 30%;
 }
 .logo{
     width: 140px;
-    background: none; 
+    background-color:none; 
+    padding: 10px;
+    border-radius: 30%;
 }
 nav ul li{
     display: inline-block;
@@ -66,7 +71,7 @@ nav ul li a:hover::after{
     max-width: 1000px;
     margin: auto;
   }
-  .contact-button {
+  .contact-button, .hire-me-btn {
     background-color: #0b0c0b;
     border: none;
     color: white;
