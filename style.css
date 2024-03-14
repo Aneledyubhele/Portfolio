@@ -186,13 +186,13 @@ h5 {
 
   footer {
     background-color: #333;
-    color: #fff;
+    /* color: #fff; */
     padding: 20px;
-    /* text-align: center; */
+    text-align: center;
     position: relative;
   }
   
-  /* Style the heart icon */
+  /* Style the icon */
   footer i {
     color:wheat;
   }
@@ -249,3 +249,11 @@ h5 {
   }
 }
 /* manu */
+a .fab, a .fas {
+  color: #007bff; /* Change the color to your desired color */
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover .fab, a:hover .fas {
+  color: #0056b3; /* Darker shade of the color on hover */
+}
