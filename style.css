@@ -99,8 +99,18 @@ nav ul li a:hover::after{
   /* Content */
   .content {
     padding: 10px;
+
   }
-  
+  .column-left, .column-right{
+    float: left;
+  width: 50%;
+  font-family: Arial, sans-serif;
+  }
+  .column-right{
+    padding-top: 250px;
+    padding-left: 20px;
+    
+  }
   
 
   /* Contact */
@@ -191,6 +201,7 @@ h5 {
     padding: 20px;
     text-align: center;
     position: relative;
+    
   }
   
   /* Style the icon */
