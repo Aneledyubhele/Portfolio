@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
  body {
-    /* background:url(img\10-Best-Free-Backup-Software-for-Windows-2017.webp  ); */
+  background:url('img/blue-curve-background_53876-113112.jpg ');
     background-color: #1d040417;
     color: white;
     align-content: center;
@@ -15,14 +15,15 @@
 
 }
 #header{
-  background:url(' img/abstract-plexus-blue-geometrical-shapes-connection-ai-generated-image_511042-596.jpg ');  
+  
+  background:url('img/blue-curve-background_53876-113112.jpg ');  
     width: 100%;
     height: 100vh;
     /* background-image: ; */
     background-size: cover;
     background-position: center;
     background-color: #333;
-    color: #fff;
+    color: black;
     padding: 20px;
     /* text-align: center; */
     position: relative;
@@ -39,15 +40,15 @@ nav{
     background-color: none;
     padding: 10px;
     border-radius: 0;
-    background-color: rgba(24, 144, 180, 0.048);
-    color: #fff;
+    /* background-color: rgba(24, 144, 180, 0.048); */
+    color: black;
     padding: 20px;
     /* text-align: center; */
     position: relative;
 }
 .logo{
     width: 140px;
-    background-color:none; 
+    /* background-color:none;  */
     padding: 10px;
     border-radius: 30%;
 }
@@ -57,7 +58,7 @@ nav ul li{
     margin: 10px 20px;
 }
 nav ul li a{
-    color: rgb(226, 231, 221);
+    color: rgb(16, 17, 15);
     text-decoration: double;
     font-size: medium;
     position: relative;
@@ -185,8 +186,8 @@ h5 {
   
 
   footer {
-    background-color: #333;
-    /* color: #fff; */
+    background-color: #080808;
+    color: #fff;
     padding: 20px;
     text-align: center;
     position: relative;
@@ -222,7 +223,7 @@ h5 {
 }
 
 .menu a {
-  color: white; /* Setting the text color to white */
+  color: black; /* Setting the text color to white */
   text-decoration: none;
   font-size: 18px;
 }
@@ -257,3 +258,18 @@ a .fab, a .fas {
 a:hover .fab, a:hover .fas {
   color: #0056b3; /* Darker shade of the color on hover */
 }
+
+.link-container {
+  display: flex;
+}
+
+.link-container a {
+  margin-right: 10px; /* Adjust as needed */
+  text-decoration: none; /* Remove underline */
+  color: white; /* Link color */
+}
+
+.link-container a:hover {
+  color:#a200ff; /* Change color on hover */
+}
+
